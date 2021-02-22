@@ -11,7 +11,15 @@ if ! source "$DIR/Compage/Bootstrap.sh"; then
 fi
 
 import "Console/Colors"
+import "Log"
 
 echo "${UI_COLORS_GREEN}Hello, world!${UI_COLORS_NOCOLOR}"
 echo "${UI_COLORS_RED}Hello, ${UI_COLORS_YELLOW}world!${UI_COLORS_NOCOLOR}"
+
+Log::Debug "Debug message"
+Log::Info "Info messsage"
+Log::Notice "Notice message"
+Log::Warning "Warning message"
+Log::Error "Error message"
+Log::Critical "Critical message"
 ```

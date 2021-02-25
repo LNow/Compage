@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 export PS4='\nDEBUG level:$SHLVL subshell-level: $BASH_SUBSHELL \nsource-file:${BASH_SOURCE} line#:${LINENO} function:${FUNCNAME[0]:+${FUNCNAME[0]}(): }\nstatement: '
 
 # return if script is already soruced
